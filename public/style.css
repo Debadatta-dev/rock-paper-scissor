@@ -1,0 +1,158 @@
+*{
+  border: 0px;
+}
+
+
+.container{
+    height: 20vmin;
+    width: 100%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+
+h1{
+font-size: 6vmin;
+font-weight: 900;
+margin-top: 0%;
+margin-bottom: 10vmin;
+color: #08396a;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#rock{
+    display: flex;
+    background-image: url(rock.png);
+    background-size:30vmin;
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    background-position:center;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    
+}
+#paper{
+    display: flex;
+    background-image: url(paper.png);
+    background-size:30vmin;
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    background-position:center;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+
+    
+}
+#scissors{
+    display: flex;
+    background-image: url(scissors.png);
+    background-size:30vmin;
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    background-position:center;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    
+}
+
+.borderh:hover{
+    box-sizing: border-box;
+    border: 1vmin solid #000000;
+    cursor: grab;    
+}
+
+/* score-board */
+
+.score-board{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vmin;
+
+}
+
+.score-board-text{
+    display: flex;
+    justify-content: center;
+}
+
+/* pargraph section */
+
+.my-score-para{
+    font-size: 12vmin;
+    margin-bottom: 0%;
+}
+.computer-score-para{
+    font-size: 12vmin;
+   margin-left: 12vmin;
+   margin-bottom: 0%;
+}
+
+/* score text */
+
+.score-board-text{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+.you-text{
+    font-size: 4vmin;
+    margin-top: 1vmin;
+    font-weight: 500;
+}
+.computer-text{
+    font-size: 4vmin;
+    margin-left: 12vmin;
+    margin-top: 1vmin;
+    font-weight: 500;
+}
+
+
+/* result section */
+
+
+.result-section{
+    display: flex;
+    justify-content: center;
+
+}
+
+.result-text{
+    color: #ffffff;
+    padding: 2vmin;
+    font-size: 5vmin;
+    background-color: #095578;
+    height: 6vmin;
+    width: fit-content;
+    border-radius: 2vmin;
+}
+
+
+/* reset-button */
+
+.reset-btn{
+    margin-top: 5vmin;
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn button{
+    color: #ffffff;
+    font-size: 4vmin;
+    height: fit-content;
+    width: fit-content;
+    background-color: #e70000;
+    padding: 1vmin;
+    border-radius: 1.5vmin;
+}
